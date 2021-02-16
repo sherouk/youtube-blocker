@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Blocker",
+    "version": "1.0",
+    "description": "This Chrome extension blocks the YouTube homepage and replaces it with an image and inspirational message.",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["./main.js"]
+        }
+    ]
+}
