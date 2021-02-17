@@ -15,6 +15,6 @@ const content = $('#content')
 // const contentParent = content.Parent()
 // $("#content").prependChild(img.src = '/background.jpg');
 // $(`<img src = '${/background.jpg}'>`).prependTo(#'content')
-const img = 'images/background.jpg';
+const img = 'https://images.unsplash.com/photo-1516914589923-f105f1535f88?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=3900&q=80';
 $('#content').html(`<img src='${img}'>`).prepend('<h1>Hello!</h1>');
 // content.remove()
