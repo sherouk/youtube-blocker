@@ -5,8 +5,15 @@ and deletes it */
 // content.parentNode.removeChild(content);
 
 const content = $('#content')
+/*function image() {
+    // dynamically add an image and set its attribute
+    const img = document.createElement('img')
+    img.src = '/images/background.jpg'
+    document.getElementById('content').appendChild('img')
+}; */
+
 // const contentParent = content.Parent()
 // $("#content").prependChild(img.src = '/background.jpg');
 // $(`<img src = '${/background.jpg}'>`).prependTo(#'content')
-$('#content').replaceWith("<p>Hello!</p>", "<img id='theImg' src = '/background.jpg'/>");
+$('#content').html('<h1>Hello!</h1>').append('<img src="images/background.jpg">');
 // content.remove()

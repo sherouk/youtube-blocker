@@ -5,12 +5,13 @@
     "author": "Sherouk Omara",
     "description": "This Chrome extension blocks the YouTube homepage and replaces it with an image and inspirational message.",
     "icons": { 
-        "24": "block.png"
+        "16": "images/block.png"
     },
     "content_scripts": [
         {
             "matches": ["https://www.youtube.com/*"],
-            "js": ["./jquery-3.5.1.min.js", "./main.js"]
+            "js": ["./jquery-3.5.1.min.js", "./main.js"],
+            "css": ["index.css"]
         }
     ]
 }
