@@ -15,5 +15,6 @@ const content = $('#content')
 // const contentParent = content.Parent()
 // $("#content").prependChild(img.src = '/background.jpg');
 // $(`<img src = '${/background.jpg}'>`).prependTo(#'content')
-$('#content').html('<h1>Hello!</h1>').append(`<img src='${'images/background.jpg'}'>`);
+const img = 'images/background.jpg';
+$('#content').html(`<img src='${img}'>`).prepend('<h1>Hello!</h1>');
 // content.remove()
