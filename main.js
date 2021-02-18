@@ -17,5 +17,5 @@ const content = $('#content')
 // $(`<img src = '${/background.jpg}'>`).prependTo(#'content')
 const img = 'images/background.jpg';
 //$('#content').html(`<img src='${img}'>`).prepend('<h1>Hello!</h1>');
-$('#content').replaceWith(`<img src='images/background.jpg' width = '100' height = '500'>`).prepend('<h1>Hello!</h1>');
+$('#content').replaceWith(`<img src='images/background.jpg' width = '100' height = '500'>`).prepend('<h1>Let\'s get back to work!</h1>');
 //content.remove()
